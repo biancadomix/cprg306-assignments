@@ -11,11 +11,11 @@ export default function Home() {
       <h2>Application Links</h2>
       <ul>
         <li><Link className={linkStyles} href="./page2/">Page 2</Link> </li>
-        <li><Link className={linkStyles} href="./page2/">Week 2</Link> </li>
-        <li><Link className={linkStyles} href="./page2/">Week 3</Link> </li>
-        <li><Link className={linkStyles} href="./page2/">Week 4</Link> </li>
-        <li><Link className={linkStyles} href="./page2/">Week 5</Link> </li>
-        <li><Link className={linkStyles} href="./page2/">Week 6</Link> </li>
+        <li><Link className={linkStyles} href="app\week-2\page.js">Week 2</Link> </li>
+        <li><Link className={linkStyles} href="app\week-3">Week 3</Link> </li>
+        <li><Link className={linkStyles} href="app\week-4">Week 4</Link> </li>
+        <li><Link className={linkStyles} href="app\week-5">Week 5</Link> </li>
+        <li><Link className={linkStyles} href="app\week-6">Week 6</Link> </li>
         <li><Link className={linkStyles} href="./page2/">Week 7</Link> </li>
       </ul>
     </main>
