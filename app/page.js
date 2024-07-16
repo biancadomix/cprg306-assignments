@@ -1,55 +1,55 @@
 import Link from "next/link";
 
 export default function Home() {
-  const linkStyles = "underline text-[#5D7599] hover:text-[#ABB6C8]";
+  const buttonStyles = "px-6 py-2 bg-[#851A2B] text-[#FFA586] rounded-full hover:bg-[#FFA586] hover:text-[#851A2B]";
 
   return (
-    <main className="h-screen bg-[#DADADA] text-[#2B2D42] flex flex-col items-center justify-center p-10">
+    <main className="h-screen bg-[#561C24] text-[#E8D8C4] flex flex-col items-center justify-center p-10">
       <div className="text-center mb-10">
-        <h1 className="text-5xl font-bold text-[#5D7599]">Hello, I'm Bianca Dominique De Torres</h1>
-        <p className="mt-4 text-lg text-[#ABB6C8]">
-         I Fear of creating web application designs and bringing them to life using code & creating mobile designs. and I like trains
+        <h1 className="text-5xl font-bold text-[#E8D8C4]">Hello, I'm Bianca Dominique De Torres</h1>
+        <p className="mt-4 text-lg text-[#C7B7A3]">
+          I fear of creating web application designs and bringing them to life using code & creating mobile designs. And I like trains.
         </p>
-        <button className="mt-6 px-8 py-3 bg-[#F7F0C6] text-[#2B2D42] rounded-full hover:bg-[#C2C4B6]">
+        <button className="mt-6 px-8 py-3 bg-[#851A2B] text-[#FFA586] rounded-full hover:bg-[#FFA586] hover:text-[#851A2B]">
           Web Dev
         </button>
       </div>
       <div className="text-center">
-        <h2 className="text-3xl font-semibold text-[#5D7599] mb-6">Application Links</h2>
+        <h2 className="text-3xl font-semibold text-[#E8D8C4] mb-6">Application Links</h2>
         <ul className="space-y-4">
           <li>
-            <Link className={linkStyles} href="./page2/">
-              Page 2
+            <Link href="./page2/">
+              <button className={buttonStyles}>Page 2</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="app/week-2/page.js">
-              Week 2
+            <Link href="app/week-2/page.js">
+              <button className={buttonStyles}>Week 2</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="app/week-3">
-              Week 3
+            <Link href="app/week-3">
+              <button className={buttonStyles}>Week 3</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="app/week-4">
-              Week 4
+            <Link href="app/week-4">
+              <button className={buttonStyles}>Week 4</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="app/week-5/arrays/page.js">
-              Week 5
+            <Link href="app/week-5/arrays/page.js">
+              <button className={buttonStyles}>Week 5</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="app/week-6">
-              Week 6
+            <Link href="app/week-6">
+              <button className={buttonStyles}>Week 6</button>
             </Link>
           </li>
           <li>
-            <Link className={linkStyles} href="./page2/">
-              Week 7
+            <Link href="./page2/">
+              <button className={buttonStyles}>Week 7</button>
             </Link>
           </li>
         </ul>
