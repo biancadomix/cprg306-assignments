@@ -52,6 +52,16 @@ export default function Home() {
               <button className={buttonStyles}>Week 7</button>
             </Link>
           </li>
+          <li>
+            <Link href="/page2">
+              <button className={buttonStyles}>Week 8</button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/page2">
+              <button className={buttonStyles}>Week 10</button>
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
